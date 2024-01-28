@@ -25,10 +25,12 @@ const onRequest = (request, response) => {
       break;
     case '/helloJSON':
     case '/helloJson':
+    case '/hellojson':
       jsonHandler.getHelloJson(request, response);
       break;
     case '/timeJSON':
     case '/timeJson':
+    case '/timejson':
       jsonHandler.getTimeJson(request, response);
       break;
     case '/dankmemes':
